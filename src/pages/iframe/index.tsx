@@ -11,7 +11,7 @@ interface HomePageProps {}
 
 const HomePage: FC<HomePageProps> = () => {
   const ref = useRef();
-  const onMessage = (data) => {
+  const onMessage = (data: any) => {
     console.log(data);
   };
   useEffect(() => {
