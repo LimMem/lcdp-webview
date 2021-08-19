@@ -1,8 +1,7 @@
-import React, { FC, useRef, useEffect, useState } from 'react';
+import React, { FC, useRef, useEffect } from 'react';
 import {
   addEventListenerMessage,
   removeEventListenerMessage,
-  postParentMessage,
   postMessageToContentWindow,
 } from 'lcdp-message';
 import styles from './index.less';
